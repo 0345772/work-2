@@ -1,0 +1,30 @@
+.myBtn {
+  padding: 2px;
+  background:rgb(124, 32, 32);
+  color:white;
+  font-size: 10px;
+  border: 1px solid black;
+  border-radius: 0.08cm;
+  cursor: pointer;
+  -webkit-border-radius: 0.08cm;
+  -moz-border-radius: 0.08cm;
+  -ms-border-radius: 0.08cm;
+  -o-border-radius: 0.08cm;
+}
+
+.myBtnAdded{
+  padding: 2px;
+  background:rgb(32, 95, 124);
+  color:white;
+  font-size: 10px;
+  border: 1px solid black;
+  border-radius: 0.08cm;
+  cursor: pointer;
+  -webkit-border-radius: 0.08cm;
+  -moz-border-radius: 0.08cm;
+  -ms-border-radius: 0.08cm;
+  -o-border-radius: 0.08cm;
+}
+
+
+

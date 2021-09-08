@@ -1,0 +1,145 @@
+.App {
+  width: 90%;
+  padding: 10px;
+  background:rgba(65, 83, 165, 0.856);
+
+
+}
+
+#root {
+  background:white;
+}
+
+.persones-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  background:whitesmoke;
+  /* border: 2px solid teal; */
+
+}
+
+.num-lettel{
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10%;
+}
+
+.num {
+  font-size: 18px;
+  color:gray;
+}
+.persone-content {
+  margin: 0;
+  width: 45%;
+}
+
+
+
+.pageviews {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width: 15%;
+  font-size: 17px;
+  color: grey;
+
+}
+
+.comment{
+  padding-top: 3px;
+  font-size: 12px;
+  color:gray;
+}
+
+.count_pub {
+  font-size: 15px;
+  color: gray;
+  margin-left: 25px;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background:thistle;
+  border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+}
+
+.persone-enter {
+  transform: translate(-950);
+  -webkit-transform: translate(-950);
+  -moz-transform: translate(-950);
+  -ms-transform: translate(-950);
+  -o-transform: translate(-950);
+}
+.persone-enter-active {
+  transform: translate(0px);
+  transition: all 500ms ease-in;
+  -webkit-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -ms-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+}
+.persone-exit {
+  opacity: 1;
+}
+.persone-exit-active {
+  transform: translate(-950px);
+  transition: all 500ms ease-in;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -webkit-transform: translate(-950px);
+  -moz-transform: translate(-950px);
+  -ms-transform: translate(-950px);
+  -o-transform: translate(-950px);
+}
+
+.medals {
+  display: flex;
+  width: 8%;
+  background:rgb(245, 243, 243);
+}
+.active{
+  display: block;
+}
+
+.page_wrapper {
+  width: 20%;
+  margin-top: 25px;
+  display: flex;
+}
+
+.page {
+ padding: 10px;
+  border: 1px solid blue;
+  background:white;
+  border-radius:15%;
+  -webkit-border-radius:15%;
+  -moz-border-radius:15%;
+  -ms-border-radius:15%;
+  -o-border-radius:15%;
+  cursor: pointer;
+}
+
+.page_current {
+  border: 3px solid rgb(226, 126, 86);
+  background:rgb(201, 219, 166);
+  font-weight: bold;
+}
+

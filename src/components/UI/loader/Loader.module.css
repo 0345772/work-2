@@ -1,0 +1,29 @@
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px dashed rgb(183, 187, 233);
+  animation: rotate 3s infinite linear;
+  -webkit-animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) scale(1);
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    -o-transform: rotate(0deg) scale(1);
+}
+  to {
+    transform: rotate(360deg) scale(3);
+    -webkit-transform: rotate(360deg) scale(3);
+    -moz-transform: rotate(360deg) scale(3);
+    -ms-transform: rotate(360deg) scale(3);
+    -o-transform: rotate(360deg) scale(3);
+}
+}
